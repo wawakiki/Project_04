@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+        }
+        section {
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+
+        }
+        .wrapper {
+            max-width: auto;
+            background-color: skyblue;
+        }
+        span {
+            background-color: orange;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+        }
+        .box {
+            background-color: orange;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 5px solid skyblue;
+        }
+        .wrapper {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0px 10px 2px 10px;
+        }
+    </style>
+</head>
+<body>
+    <span>인라인요소</span>
+    <span>인라인요소</span>
+    <span>인라인요소</span>
+    <span>인라인요소</span>
+    <div class="box">블럭요소</div>
+    <div class="box">블럭요소</div>
+    <div class="box">블럭요소</div>
+    <div class="box">블럭요소</div>
+    <div ciass="btns">
+        <div class="container">
+            <div class="btns__menu">
+                <button class="btn home">Home</button>
+                <button class="btn about">About</button>
+                <button class="btn skills">Skills</button>
+                <button class="btn works">Works</button>
+                <button class="btn contact">Contact</button>
+                <!-- .box${내용$}*5 -->
+                <!-- #home=id .home=div -->
+            </div>    
+        </div>
+    </div>
+
+
+    <section id="home">
+        <div class="wrapper">
+            <h1>Home</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis,<br>nulla sit rem praesentium placeat obcaecati odit.</h3>
+            <!-- <br> =줄바꾸기  -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+            <h1>About</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis,<br>nulla sit rem praesentium placeat obcaecati odit.</h3>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="wrapper">
+            <h1>Skills</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis, nulla sit rem praesentium placeat obcaecati odit.
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="wrapper">
+            <h1>Works</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis, nulla sit rem praesentium placeat obcaecati odit.
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <h1>Contact</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis, nulla sit rem praesentium placeat obcaecati odit.
+        </div>
+    </section>
+</body>
+</html>
