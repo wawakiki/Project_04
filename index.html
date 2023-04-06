@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        alert('Hello New Home..!');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +16,25 @@
             font-family: 'Noto Sans KR', sans-serif;
             text-align: center;
         }
+        button {
+            font-size: 24px;
+            padding: 20px;
+            width: 200px;
+            border: none;
+        }
         section {
             width: 100%;
             height: 100vh;
             text-align: center;
-
+        }
+        section:nth-child(odd) {
+            background-color: skyblue;
         }
         .wrapper {
             max-width: auto;
             background-color: skyblue;
         }
-        span {
+        /* span {
             background-color: orange;
             width: 200px;
             height: 40px;
@@ -38,23 +49,86 @@
             margin: 100px auto;
             padding: 20px;
             border: 5px solid skyblue;
-        }
+        } */
         .wrapper {
             max-width: 1200px;
             margin: auto;
             padding: 0px 10px 2px 10px;
         }
+        div {
+            background-color: non;
+        }
+        button:nth-child(5) {
+            background-color: blue;
+        }
+        #btn {
+            background-color: skyblue;
+        }
+        .btn.home {
+            background-color: yellow;
+        }
+        h1 {
+            font-size: 100px;
+            color: yellow;
+        }
+        h2 {
+            font-size: 60px;
+            color: #fff;
+        }
+        .lemon {
+            font-size: 60px;
+            color: orange;
+            display: inline-block;
+            transition: .3s;
+        }
+        .lemon:hover {
+            color: yellow;
+            cursor: pointer;
+            transform: scale(1.2)
+        }
+        h3 {
+            color: #fff;
+        }
+        h3>span {
+            font-size: 100px;
+        }
+        .wrapper span {
+            color: #fff;
+        }
+        .cool {
+            font-size: 200px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .cool:hover {
+            color: blue;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+        .wrapper span:nth-child(3) {
+            font-size: 200px;
+            display: inline-block;
+            transition: .3s;
+        }
+        .wrapper span:nth-child(3):hover {
+            color: yellow;
+            cursor: pointer;
+            transform: scale(1.2)
+        }
+        /* .btn.home {
+            color:blue;
+        } */
     </style>
 </head>
 <body>
-    <span>인라인요소</span>
+    <!-- <span>인라인요소</span>
     <span>인라인요소</span>
     <span>인라인요소</span>
     <span>인라인요소</span>
     <div class="box">블럭요소</div>
     <div class="box">블럭요소</div>
     <div class="box">블럭요소</div>
-    <div class="box">블럭요소</div>
+    <div class="box">블럭요소</div> -->
     <div ciass="btns">
         <div class="container">
             <div class="btns__menu">
@@ -72,9 +146,10 @@
 
     <section id="home">
         <div class="wrapper">
-            <h1>Home</h1>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae modi culpa, minima voluptas ut a magnam impedit magni nam aspernatur optio nemo omnis,<br>nulla sit rem praesentium placeat obcaecati odit.</h3>
+            <h1><b>Lemon's<br>Home</b></h1>
+            <img src="레몬.png" style="display:inline-block; margin:0 aoto; height:200px"/>
+            <h2>Hi! i'am <span class="lemon"> Lemon.</span></h2>
+            <h3>i'am soo<span class="cool">COOL</span>and<br>super<span class="sour">SOUR</span>!!</h3>
             <!-- <br> =줄바꾸기  -->
         </div>
     </section>
